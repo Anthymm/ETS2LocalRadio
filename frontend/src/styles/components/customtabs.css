@@ -1,0 +1,25 @@
+.custom-tabs{
+    width: 15vw;
+    height: 30vh;
+    overflow: hidden;
+}
+
+.tabs {
+    display: flex;
+    height: 25%;
+    
+}
+
+.tabs > button{
+    border: none;
+    width: 33%;
+    font-size: 100%;
+}
+
+.tabs > button:hover{
+    background-color: #b1b1b1;
+}
+
+.tabs-output{
+    overflow-y: scroll;
+}
